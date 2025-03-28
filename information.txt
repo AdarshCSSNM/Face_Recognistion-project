@@ -1,0 +1,18 @@
+To make the face detection code work, follow these steps:
+
+1. Install OpenCV: Make sure you have OpenCV installed on your system. You can install it using pip:
+```
+pip install opencv-python
+```
+
+2. Obtain the haarcascade_frontalface_default.xml file: The face detection algorithm in OpenCV uses a pre-trained model called the Haar cascade classifier. You need to download the XML file for face detection. You can find it in the OpenCV GitHub repository: [haarcascade_frontalface_default.xml](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml).
+
+Download the XML file and save it in the same directory as your Python script.
+
+3. Run the code: Once you have OpenCV installed and the XML file in the correct location, run the code you provided. It will open your default camera and display the real-time face detection.
+
+Make sure your camera is accessible and functional. When you run the code, a window titled "Face Detection" should appear, showing the camera feed with rectangles around detected faces.
+
+You can exit the program by pressing 'q' on your keyboard.
+
+If you encounter any errors or issues during this process, please provide more specific details about the problem you're facing, including any error messages, so that I can assist you further.
